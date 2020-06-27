@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="textConversionMonedas">Currency Converter</string>
+    <string name="editTextMonto">Enter Amount in Pesos</string>
+    <string name="textSeleccionarMonedas">Select a Currency</string>
+    <string name="radioButtonDolar">DOLLAR (USA)</string>
+    <string name="radioButtonEuro">EURO</string>
+    <string name="radioButtonReal">REAL (BRAZIL)</string>
+    <string name="editTextResultado">Result</string>
+    <string name="buttonConvertir">CONVERT</string>
+    <string name="buttonReiniciar">RESTART</string>
+</resources>

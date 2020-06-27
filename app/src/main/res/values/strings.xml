@@ -1,0 +1,11 @@
+<resources>
+    <string name="textConversionMonedas">Conversor Monedas</string>
+    <string name="editTextMonto">Ingrese Monto en Pesos</string>
+    <string name="textSeleccionarMonedas">Seleccione una Moneda</string>
+    <string name="radioButtonDolar">DOLAR (USA)</string>
+    <string name="radioButtonEuro">EURO</string>
+    <string name="radioButtonReal">REAL (BRASIL)</string>
+    <string name="editTextResultado">Resultado</string>
+    <string name="buttonConvertir">CONVERTIR</string>
+    <string name="buttonReiniciar">REINICIAR</string>
+</resources>

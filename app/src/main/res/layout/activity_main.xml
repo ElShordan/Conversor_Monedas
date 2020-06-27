@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Conversor Monedas"
+        android:textColor="#7A2988"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:translationX="175px"
+        android:translationY="200px" />
+
+    <EditText
+        android:id="@+id/editTextNumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Ingrese Monto en Pesos"
+        android:inputType="number"
+        android:textColor="#858585"
+        android:textStyle="bold"
+        android:translationX="250px"
+        android:translationY="350px" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Seleccione una Moneda"
+        android:textColor="#E91E63"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:translationX="273px"
+        android:translationY="535px" />
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:translationX="175px"
+        android:translationY="650px">
+
+        <RadioButton
+            android:id="@+id/radioButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:buttonTint="#E91E63"
+            android:text="DOLAR (USA)"
+            android:textStyle="bold" />
+
+        <RadioButton
+            android:id="@+id/radioButton2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:buttonTint="#E91E63"
+            android:text="EURO"
+            android:textStyle="bold" />
+
+        <RadioButton
+            android:id="@+id/radioButton3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:buttonTint="#E91E63"
+            android:text="REAL (BRASIL)"
+            android:textStyle="bold" />
+    </RadioGroup>
+
+    <EditText
+        android:id="@+id/editTextNumber2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#E91E63"
+        android:ems="10"
+        android:hint="Resultado"
+        android:inputType="number"
+        android:lineSpacingExtra="0sp"
+        android:textAllCaps="true"
+        android:textStyle="bold"
+        android:translationX="250px"
+        android:translationY="925px" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="150px"
+        android:backgroundTint="#673AB7"
+        android:text="CONVERTIR"
+        android:textColor="#FFFFFF"
+        android:translationX="225px"
+        android:translationY="1085px" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="150px"
+        android:backgroundTint="#673AB7"
+        android:text="REINICIAR"
+        android:textColor="#FFFFFF"
+        android:translationX="600px"
+        android:translationY="1085px" />
+
+</RelativeLayout>
